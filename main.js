@@ -14,4 +14,7 @@ function printTime() {
     var currTime = date.getHours() + ':' + date.getMinutes() +':' + date.getSeconds();
     console.log(calendarDay);
     console.log("Time website opened: "+currTime);
+
+    // Update the button text with the current time
+    document.querySelector('button').innerText = "Current time is: " + currTime;
 }
