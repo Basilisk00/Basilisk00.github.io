@@ -3,13 +3,20 @@
     src: url("docs/assests/fonts/Workbench-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Anton";
+    src: url("docs/assests/fonts/Anton-Regular.ttf") format("truetype");
+}
 h1 {
-    font-family: "Workbench", sans-serif;
-    font-size: 130px;
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
     text-align: center;
-    background: linear-gradient(to bottom, #f32170, #ff6b08,#cf23cf, #eedd44);
+    background: linear-gradient(to bottom, #46ff2a,#d4c415, #fc9753);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    filter: drop-shadow(1px 1px #535151);
+
+    margin-top: -5px;
 }
 
 p {
