@@ -11,10 +11,10 @@ h1 {
     font-family: "Anton", sans-serif;
     font-size: 100px;
     text-align: center;
-    background: linear-gradient(to bottom, #46ff2a,#d4c415, #fc9753);
+    background: linear-gradient(to bottom, #2fff0f,#d4c415, #fc9753, #0026e2);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    filter: drop-shadow(1px 1px #535151);
+    filter: drop-shadow(4px 4px #2e2d2d);
 
     margin-top: -5px;
 }
@@ -26,4 +26,13 @@ p {
 
 body {
     background: rgb(227, 244, 255);
+}
+
+canvas {
+    border: 5px solid;
+    border-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #0026e2; */
 }
