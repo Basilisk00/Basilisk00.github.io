@@ -16,7 +16,8 @@ h1 {
     -webkit-background-clip: text;
     filter: drop-shadow(4px 4px #2e2d2d);
 
-    margin-top: -5px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 p {
