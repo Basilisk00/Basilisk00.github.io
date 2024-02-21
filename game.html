@@ -10,12 +10,17 @@
     <title>Floppy Birb</title>
     <h1>Floppy Birb</h1>
     
-    <img id = "birb" src="https://github.com/Basilisk00/Basilisk00.github.io/blob/main/docs/assests/img/Birb.PNG.png?raw=true" alt="bird image" width = "400px" height = "500px">
+    <!-- <img id = "birb" src="https://github.com/Basilisk00/Basilisk00.github.io/blob/main/docs/assests/img/Birb.PNG.png?raw=true" alt="bird image" width = "400px" height = "500px"> -->
 
 </head>
 <body onload="startGame()">
     
-    <div>Hi</div>
+    <div style="text-align:center;width:480px;">
+        <button onmousedown="goUp()" onmouseup="stopMove()" ontouchstart="goUp()" >UP</button> <br><br>
+        <button onmousedown="goLeft()" onmouseup="stopMove()" ontouchstart="goLeft()">LEFT</button>
+        <button onmousedown="goRight()" onmouseup="stopMove()" ontouchstart="goRight()">RIGHT</button> <br> <br>
+        <button onmousedown="goDown()" onmouseup="stopMove()" ontouchstart="goDown()">DOWN</button>
+    </div>
     
 </body>
     <a href="index.html"> Go back?</a>
