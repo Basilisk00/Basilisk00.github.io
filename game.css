@@ -35,5 +35,6 @@ canvas {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: azure;
     /* background-color: #0026e2; */
 }
