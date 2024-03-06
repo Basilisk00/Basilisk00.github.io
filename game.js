@@ -20,6 +20,7 @@ var myGameArea = {
       // Gets keyboard input
       window.addEventListener('keypress', function(e) {
         myGameArea.key = e.code;
+        console.log(myGameArea.key);
       })
 
       window.addEventListener('keyup', function (e) {
@@ -133,6 +134,25 @@ function updateGameArea() {
   if (myGameArea.key === "Space") {
     birb.speedY = -1; 
   }
+
+  // Temporary WASD Controls
+  if (myGameArea.key === "KeyW") {
+    birb.speedY = -1; 
+  }
+  if (myGameArea.key === "KeyS") {
+    birb.speedY = 1; 
+  }
+  if (myGameArea.key === "KeyA") {
+    birb.speedX = -1; 
+  }
+  if (myGameArea.key === "KeyD") {
+    birb.speedX = 1; 
+  }
+
+//   function check(e) {
+//     alert(e.key);
+// }
+
   birb.newPos();
   birb.update(); // Draws new birb after deletion
   //stopMove();
